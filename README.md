@@ -22,7 +22,7 @@ The project leverages Convolutional Neural Networks (CNNs), a class of deep neur
 ### Prerequisites
 
 - Python 3.x
-- Required libraries: TensorFlow, Keras, NumPy, pandas, scikit-learn, matplotlib, seaborn
+- Required libraries: tensorflow, keras, numPy, pandas, matplotlib, glob
 
 Install the dependencies using:
 
@@ -34,13 +34,13 @@ pip install -r requirements.txt
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/alirezamirrokni/DeepFNNs-project.git
+    git clone https://github.com/alirezamirrokni/CNNs-project.git
     ```
 
 2. **Navigate to the project directory**:
 
     ```bash
-    cd DeepFNNs-project/(part1 | part2)
+    cd CNNs-project
     ```
     
 3. **Open `.ipynb` file and run its cells**.
