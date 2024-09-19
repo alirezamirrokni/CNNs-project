@@ -14,7 +14,7 @@ Manually refining and extracting information from such a large volume of data is
 
 The project leverages Convolutional Neural Networks (CNNs), a class of deep neural networks, particularly well-suited for image classification tasks. The following steps are taken to design the model:
 - **Data Preprocessing**: Preprocessing the dataset to normalize images and prepare them for input into the CNN model.
-- **Constructing Model Using Transfer Learning**: Using transfer learing in order to take advantage of the ResNet model arcitecture with self-built prediction head (FNN head) and trai
+- **Constructing Model (Using Transfer Learning)**: Using transfer learing in order to take advantage of the ResNet model arcitecture with self-built prediction head (FNN head) and trai
 - **Evaluation metrics and performance analysis**: The model is evaluated based on accuracy score to ensure the performance meets the project requirements.
 
 ## How to Run the Project
