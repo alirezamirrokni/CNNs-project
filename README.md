@@ -14,44 +14,46 @@ Manually refining and extracting information from such a large volume of data is
 
 The project leverages Convolutional Neural Networks (CNNs), a class of deep neural networks, particularly well-suited for image classification tasks. The following steps are taken to design the model:
 - **Data Preprocessing**: Preprocessing the dataset to normalize images and prepare them for input into the CNN model.
-- **Constructing Model (Using Transfer Learning)**: Using transfer learing in order to take advantage of the ResNet model arcitecture with self-built prediction head (FNN head) and trai
+- **Constructing Model (Using Transfer Learning)**: Using transfer learing in order to take advantage of the ResNet model arcitecture with self-built prediction head (FNN head).
 - **Evaluation metrics and performance analysis**: The model is evaluated based on accuracy score to ensure the performance meets the project requirements.
 
-## How to Run the Project
+## Getting Started
 
-1. Clone the repository:
+### Prerequisites
+
+- Python 3.x
+- Required libraries: TensorFlow, Keras, NumPy, pandas, scikit-learn, matplotlib, seaborn
+
+Install the dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+## Usage
+
+1. **Clone the repository**:
+
     ```bash
-    git clone https://github.com/alirezamirrokni/CNNs-project.git
-    cd CNNs-project
+    git clone https://github.com/alirezamirrokni/DeepFNNs-project.git
     ```
 
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+2. **Navigate to the project directory**:
 
-3. Prepare the dataset:
-    - Download the dataset (not included in the repository).
-    - Preprocess the images and organize them into the required folder structure.
-
-4. Train the model:
     ```bash
-    python train.py --dataset path_to_dataset --epochs 50
+    cd DeepFNNs-project/(part1 | part2)
     ```
-
-5. Evaluate the model:
-    ```bash
-    python evaluate.py --model path_to_trained_model --dataset path_to_validation_dataset
-    ```
+    
+3. **Open `.ipynb` file and run its cells**.
 
 ## Results
 
-The results of the trained model, including its accuracy and performance on various product categories, will be displayed during the evaluation phase. Further details on the results can be found in the results folder.
+- ROC_AUC score for the first part on validation set:
 
-## Contributions
+    [![part1.png](https://i.postimg.cc/BQqk3Qww/part1.png)](https://postimg.cc/5jRnq1Jw)
 
-Contributions are welcome! Please fork this repository and submit a pull request for any features, fixes, or enhancements you’d like to see.
+- Accuracy score for the second part on validation set:
 
-## License
+    [![part2.png](https://i.postimg.cc/BZ5kR1NK/part2.png)](https://postimg.cc/grJgZjCz)
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Authors        
+-[Alireza Mirrokni](https://github.com/alirezamirrokni)    
